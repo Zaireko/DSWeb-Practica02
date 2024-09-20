@@ -1,5 +1,5 @@
+org\uv\dsweb\practica02\DBConnection.class
 org\uv\dsweb\practica02\UsuarioDAO.class
 org\uv\dsweb\practica02\Usuario$UsuarioBuilder.class
-org\uv\dsweb\practica02\DatabaseConnection.class
 org\uv\dsweb\practica02\Usuario.class
 org\uv\dsweb\practica02\UsuarioServlet.class

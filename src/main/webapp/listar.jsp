@@ -46,7 +46,7 @@
             display: flex;
             justify-content: space-between;
         }
-        .action-button {
+        .edit-button {
             width: 48%;
             text-align: center;
             padding: 6px;
@@ -56,8 +56,21 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        .action-button:hover {
-            background-color: #45a049;
+        .delete-button {
+            width: 48%;
+            text-align: center;
+            padding: 6px;
+            background-color: #ff1100;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .edit-button:hover {
+                background-color: #45a049;
+        }
+        .delete-button:hover {
+                background-color: #c21408;
         }
         .add-user-link {
             display: block;
@@ -86,8 +99,8 @@
                 <td>${usuario.telefono}</td>
                 <td>${usuario.direccion}</td>
                 <td class="actions">
-                    <a href="usuarios?action=editar&id=${usuario.id}" class="action-button">Editar</a>
-                    <a href="usuarios?action=eliminar&id=${usuario.id}" class="action-button">Eliminar</a>
+                    <a href="usuarios?action=editar&id=${usuario.id}" class="edit-button">Editar</a>
+                    <a href="usuarios?action=eliminar&id=${usuario.id}" class="delete-button">Eliminar</a>
                 </td>
             </tr>
         </c:forEach>
